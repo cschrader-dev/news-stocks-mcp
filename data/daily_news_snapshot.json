@@ -1,0 +1,42 @@
+{
+  "snapshot_date": "2026-06-09",
+  "generated_at": "2026-06-09T08:00:00Z",
+  "description": "Cached daily global news snapshot for reproducible analysis. Replace this file with fresh data by calling get_global_news and saving the output.",
+  "articles": [
+    {
+      "title": "Federal Reserve Signals Potential Rate Pause Amid Mixed Economic Data",
+      "summary": "The Federal Reserve indicated it may hold interest rates steady at its next meeting, citing conflicting signals from employment and inflation reports.",
+      "link": "https://example.com/fed-rate-pause",
+      "published": "2026-06-09T06:30:00Z",
+      "source": "Reuters"
+    },
+    {
+      "title": "NVIDIA Unveils Next-Generation AI Chip Architecture at Annual Conference",
+      "summary": "NVIDIA announced its latest GPU architecture promising 3x performance gains for AI training workloads, sending shares higher in pre-market trading.",
+      "link": "https://example.com/nvidia-new-chip",
+      "published": "2026-06-09T07:00:00Z",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "European Union Reaches Agreement on Comprehensive AI Regulation Framework",
+      "summary": "EU member states finalized the AI Act implementation guidelines, establishing compliance timelines for tech companies operating in the bloc.",
+      "link": "https://example.com/eu-ai-regulation",
+      "published": "2026-06-09T05:45:00Z",
+      "source": "Financial Times"
+    },
+    {
+      "title": "Oil Prices Surge After OPEC+ Announces Deeper Production Cuts",
+      "summary": "Brent crude jumped 4% after the OPEC+ alliance agreed to extend and deepen supply cuts through Q3, tightening global oil markets.",
+      "link": "https://example.com/opec-cuts",
+      "published": "2026-06-09T04:15:00Z",
+      "source": "CNBC"
+    },
+    {
+      "title": "Tesla Expands Supercharger Network Partnership with Major Automakers",
+      "summary": "Tesla signed agreements with three additional automakers to open its Supercharger network, cementing NACS as the de facto North American charging standard.",
+      "link": "https://example.com/tesla-supercharger",
+      "published": "2026-06-09T07:30:00Z",
+      "source": "Wall Street Journal"
+    }
+  ]
+}

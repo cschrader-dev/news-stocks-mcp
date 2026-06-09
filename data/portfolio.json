@@ -1,0 +1,43 @@
+{
+  "name": "Tech-Heavy Growth Portfolio",
+  "description": "A moderately aggressive portfolio focused on large-cap technology and AI/semiconductor exposure, with a small defensive allocation.",
+  "last_updated": "2026-06-09",
+  "tickers": [
+    {
+      "symbol": "NVDA",
+      "weight": 0.25,
+      "risk_preference": "aggressive",
+      "notes": "Core AI/GPU exposure. High conviction on data-center demand."
+    },
+    {
+      "symbol": "AAPL",
+      "weight": 0.20,
+      "risk_preference": "moderate",
+      "notes": "Steady cash-flow compounder; services growth thesis."
+    },
+    {
+      "symbol": "MSFT",
+      "weight": 0.20,
+      "risk_preference": "moderate",
+      "notes": "Cloud + enterprise AI integration via Azure/Copilot."
+    },
+    {
+      "symbol": "TSLA",
+      "weight": 0.15,
+      "risk_preference": "aggressive",
+      "notes": "EV + energy + autonomy optionality. High volatility expected."
+    },
+    {
+      "symbol": "AMZN",
+      "weight": 0.10,
+      "risk_preference": "moderate",
+      "notes": "AWS cloud dominance + retail margin expansion."
+    },
+    {
+      "symbol": "JNJ",
+      "weight": 0.10,
+      "risk_preference": "conservative",
+      "notes": "Defensive healthcare allocation. Dividend anchor."
+    }
+  ]
+}
