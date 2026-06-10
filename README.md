@@ -6,25 +6,25 @@ A production-grade **Model Context Protocol (MCP)** server that provides AI agen
 
 ```
 ┌──────────────────────────────────────────────────────┐
-│                    MCP Host / Agent                   │
-│         (Claude Desktop, custom client, etc.)         │
+│                    MCP Host / Agent                  │
+│         (Claude Desktop, custom client, etc.)        │
 └────────────────────────┬─────────────────────────────┘
                          │ stdio / SSE
 ┌────────────────────────┴─────────────────────────────┐
-│              News & Stocks MCP Server                 │
-│                                                       │
-│  TOOLS                                                │
-│    • get_global_news(query, limit)                    │
-│    • get_stock_news(symbol, limit)                    │
-│    • get_market_snapshot(symbols, limit_per_symbol)   │
-│                                                       │
-│  RESOURCES                                            │
-│    • data://portfolio          → portfolio.json       │
-│    • data://daily_news_snapshot → snapshot.json        │
-│                                                       │
-│  PROMPTS                                              │
-│    • portfolio_news_recommendations                   │
-│    • daily_briefing                                   │
+│              News & Stocks MCP Server                │
+│                                                      │
+│  TOOLS                                               │
+│    • get_global_news(query, limit)                   │
+│    • get_stock_news(symbol, limit)                   │
+│    • get_market_snapshot(symbols, limit_per_symbol)  │
+│                                                      │
+│  RESOURCES                                           │
+│    • data://portfolio          → portfolio.json      │
+│    • data://daily_news_snapshot → snapshot.json      │
+│                                                      │
+│  PROMPTS                                             │
+│    • portfolio_news_recommendations                  │
+│    • daily_briefing                                  │
 └──────────────────────────────────────────────────────┘
          │                              │
     Google News RSS              Local JSON files
