@@ -1218,4 +1218,13 @@ if __name__ == "__main__":
         HTTP_TIMEOUT,
     )
     # mcp.run()
-    mcp.run(transport="sse", host="0.0.0.0", port=8000)
+import uvicorn
+from mcp.server.transport_security import TransportSecuritySettings, TransportSecurityMiddleware
+
+# Monkey-patch to disable DNS rebinding protection
+TransportSecurityMiddleware.__init__ = lambda self, settings=None: setattr(
+    self, 'settings', TransportSecuritySettings(enable_dns_rebinding_protection=False)
+)
+
+uvicorn.run(mcp.streamable_http_app(), host="0.0.0.0", port=8000, forwarded_allow_ips="*")
+
