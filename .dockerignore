@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+.git/
+.env
+data/daily_news_snapshot.json
