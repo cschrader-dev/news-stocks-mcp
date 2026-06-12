@@ -1217,4 +1217,5 @@ if __name__ == "__main__":
         MAX_LIMIT,
         HTTP_TIMEOUT,
     )
-    mcp.run()
+    # mcp.run()
+    mcp.run(transport="sse", host="0.0.0.0", port=8000)
